@@ -54,6 +54,7 @@
     "redux-actions": "^2.6.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
+    "react-scripts": "2.1.5",
     "simple-line-icons": "^2.4.1",
     "typescript": "^3.4.5"
   },
