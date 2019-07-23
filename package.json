@@ -65,7 +65,7 @@
     "redux-mock-store": "^1.5.3"
   },
   "scripts": {
-    "start": "serve -s build -l 9528",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:cov": "react-scripts test --coverage",
