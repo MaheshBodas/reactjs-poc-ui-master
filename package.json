@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "An application to Create and View user defined entities.",
   "engines": {
-    "node": "10.15.3",
-    "npm": "6.9.0"
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
   },
   "author": "Mahesh Bodas",
   "homepage": "https://reactjs-poc-ui-master.herokuapp.com//",
@@ -16,6 +16,9 @@
     "url": "git@github.com:MaheshBodas/reactjs-poc-ui-master.git"
   },
   "dependencies": {
+    "chalk": "^2.3.0",
+    "express": "^4.16.4",
+    "semver": "5.4.1",
     "@coreui/coreui": "^2.1.7",
     "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
     "@coreui/icons": "0.3.0",
@@ -65,7 +68,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "npm run build",
+    "build": "node build/build.js",
     "test": "react-scripts test",
     "test:cov": "react-scripts test --coverage",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
