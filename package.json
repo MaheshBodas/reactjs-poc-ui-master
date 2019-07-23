@@ -1,9 +1,12 @@
 {
   "name": "@maheshbodas/reactjs-poc-ui-master",
-  "version": "2.1.5",
+  "version": "1.0.0",
   "description": "An application to Create and View user defined entities.",
+  "engines": {
+    "node": "10.15.3"
+  },
   "author": "Mahesh Bodas",
-  "homepage": "https://reactjsparamount.herokuapp.com/",
+  "homepage": "https://reactjs-poc-ui-master.herokuapp.com//",
   "copyright": "Copyright 2019 Mahesh Bodas",
   "license": "MIT",
   "private": true,
