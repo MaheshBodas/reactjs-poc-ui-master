@@ -7,7 +7,7 @@
     "npm": ">= 3.0.0"
   },
   "author": "Mahesh Bodas",
-  "homepage": ".",
+  "homepage": "https://reactjs-poc-ui-master.herokuapp.com",
   "copyright": "Copyright 2019 Mahesh Bodas",
   "license": "MIT",
   "private": true,
@@ -65,7 +65,8 @@
     "redux-mock-store": "^1.5.3"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "npm start",
+    "start_serve": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:cov": "react-scripts test --coverage",
