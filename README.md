@@ -16,16 +16,14 @@ git clone https://github.com/MaheshBodas/reactjs-poc-ui-master.git
 npm install
 
 # serve with hot reload at localhost:9528
-npm start
+serve -s build
 
 # build for production with minification
-npm run build
+react-scripts build
 
 # Running unit test cases
 npm run test
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
 
