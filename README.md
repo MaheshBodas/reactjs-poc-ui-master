@@ -1,6 +1,6 @@
 # ReactJS PoC
 
-> A ReactJS Paramount allow user to Create RiskTypes and Risk based on RiskTypes. User can browse RiskTypes and Risk. It uses ReactJS, Redux for global state store, Redux-thunk middleware and Element React & TypeScript & axios & Redmond theme from jQuery UI, FontAwesome & permission control & lint
+> A ReactJS PoC allow user to Create RiskTypes and Risk based on RiskTypes. User can browse RiskTypes and Risk. It uses ReactJS, Redux for global state store, Redux-thunk middleware and Element React & TypeScript & axios & Redmond theme from jQuery UI, FontAwesome & permission control & lint
 
 ## Demo
 ![demo](https://github.com/MaheshBodas/reactjs-poc-ui-master/blob/master/blob/Dashboard.png)
