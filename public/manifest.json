@@ -1,6 +1,6 @@
 {
-  "short_name": "CoreUI-React",
-  "name": "CoreUI-React sample",
+  "short_name": "ReactJS PoC",
+  "name": "ReactJS PoC by Mahesh Bodas",
   "icons": [
     {
       "src": "./assets/img/favicon.png",
