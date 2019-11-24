@@ -1,7 +1,23 @@
 # ReactJS PoC
+ReactJS PoC is Front end application which consume DJango Rest API server. Its sends appropriate GET request to retrive data and uses POST request to create objects on server side.
 
-> A ReactJS PoC allow user to Create RiskTypes and Risk based on RiskTypes. User can browse RiskTypes and Risk. It uses ReactJS, Redux for global state store, Redux-thunk middleware and Element React & TypeScript & axios & Redmond theme from jQuery UI, FontAwesome & permission control & lint
+ Here is brief introduction to functionality it offers.
 
+1. Allow user to Create RiskTypes which is defining new Entity in system and attributes associated with that Entity. 
+2. Frontend use POST request to specified endpoint to create new RiskType (Entity on server).
+3. Allow user to Create Risk Instances based on RiskType which is like creating and saving objects of chosen type.
+4. User can browse RiskTypes and Risk. 
+5. View Single Risk screen let user to select Risk name from dropdown box. Upon selection application fetches details of single  Risk Instance.
+6. View All Risk screen lets user to navigate through list of Risk instances of chosen type 
+
+### For details of User and Architecture guide refer following links
+- [User Guide](https://github.com/MaheshBodas/apollo-reactjs-poc-ui-master/blob/master/blob/Apollo-ReactJS-PoC-UI-Presentation.pdf)
+- [Architecture Guide](https://github.com/MaheshBodas/apollo-reactjs-poc-ui-master/blob/master/blob/Architecture-of-ApolloClient-ReactJS-PoC.pdf)
+
+### It makes use of following technology.
+- ReactJS, Element React component library, Redmond theme from jQuery UI, FontAwesome, TypeScript, lint.
+- Redux for global state store, Redux-thunk middleware.
+- Axios library to communicate with server, uses token authentication. 
 ## Demo
 ![demo](https://github.com/MaheshBodas/reactjs-poc-ui-master/blob/master/blob/Dashboard.png)
 
