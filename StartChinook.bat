@@ -1,0 +1,1 @@
+npm start "REACT_APP_BASE_API=https://chinook-poc-api-master.herokuapp.com/"

@@ -41,27 +41,8 @@ export default {
   verifyAccountEmail(key) {
     return session.post('/registration/verify-email/', { key })
   },
-// Risk API related functions
-  createRiskType(risktypepostdata) {
-    return session.post('/risktypes/', risktypepostdata)
-  },
-  createRisk(riskpostdata) {
-    return session.post('/risks/', riskpostdata)
-  },
-  getRiskType(risk_type_id) {
-    return session.get('/risktypes/?id=' + risk_type_id)
-  },
-  getRiskTypeKeys() {
-    return session.get('/risktypekeys/')
-  },
-  getRisk(risk_id) {
-    return session.get('/risks/?id=' + risk_id)
-  },
-  getRiskKeys() {
-    return session.get('/riskkeys/')
-  },
-  getRisks(risk_type_id) {
-    return session.get('/risks/?risktype=' + risk_type_id)
+  getTracks() {
+    return session.get('/tracks/')
   }
   // Risk API related functions
 }

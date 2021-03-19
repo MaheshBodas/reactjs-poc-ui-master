@@ -1,4 +1,4 @@
-# reactjs-poc-ui-master
+# chinook-poc-ui-master
 
 ## Intro 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
@@ -9,7 +9,7 @@ Dependencies are handled by **npm**.
 
 ## Directories
 ```
-reactjs-poc-ui-master\trunk#v1.0.0
+chinook-poc-ui-master\trunk#v1.0.0
 |   .editorconfig
 |   .env
 |   .gitignore
@@ -166,7 +166,7 @@ reactjs-poc-ui-master\trunk#v1.0.0
     +---_components
     |   |   utils.js
     |   |       
-    |   | --- Start Top Level components in reactjs-poc-ui-master
+    |   | --- Start Top Level components in chinook-poc-ui-master
     |   |
     |   +---CreateRiskCtrl
     |   |       CreateRiskCtrl.css
@@ -188,7 +188,7 @@ reactjs-poc-ui-master\trunk#v1.0.0
     |   | --- End Top Level components   
     |
     |
-    |   | --- Start components that define UI structure of Top Level components in reactjs-poc-ui-master
+    |   | --- Start components that define UI structure of Top Level components in chinook-poc-ui-master
     |           
     |   +---ComposableContainer
     |   |       card.css
@@ -198,10 +198,10 @@ reactjs-poc-ui-master\trunk#v1.0.0
     |   |       card.css
     |   |       ToggleContainer.tsx
     |   |    
-    |   |--- End components that define UI structure of Top Level components in in reactjs-poc-ui-master
+    |   |--- End components that define UI structure of Top Level components in in chinook-poc-ui-master
     |
     |    
-    |   | --- Start Helper components in reactjs-poc-ui-master
+    |   | --- Start Helper components in chinook-poc-ui-master
     |
     |   +---LoaderComponent
     |   |       LoaderComponent.jsx
@@ -226,11 +226,11 @@ reactjs-poc-ui-master\trunk#v1.0.0
     |   +---RiskTypeList
     |   |       RiskTypeList.jsx
     |   |       
-    |   | --- End Helper components in reactjs-poc-ui-master
+    |   | --- End Helper components in chinook-poc-ui-master
     |
     |
     |
-    |   | --- Start Input components in reactjs-poc-ui-master
+    |   | --- Start Input components in chinook-poc-ui-master
     |    
     |
     |   +---RiskInput             (Main driver component which decide what Control to render based on field_type)
@@ -256,7 +256,7 @@ reactjs-poc-ui-master\trunk#v1.0.0
     |   |       TextInput.css
     |   |       TextInput.jsx
     |   |           
-    | --- End Input components in reactjs-poc-ui-master
+    | --- End Input components in chinook-poc-ui-master
     |
     |
     +---_constants
